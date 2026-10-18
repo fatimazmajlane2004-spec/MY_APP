@@ -1,0 +1,12 @@
+# Thème de l'interface : palette bleu / blanc utilisée par l'application.
+#
+# Ces couleurs sont reprises par les composants internes de Streamlit
+# (onglet actif, curseurs, cases à cocher, barres de progression, tableaux)
+# afin de rester cohérentes avec les cartes et le bandeau dessinés dans app.py.
+
+[theme]
+primaryColor = "#2563EB"              # bleu principal : onglet actif, jauges, focus
+backgroundColor = "#F6F8FC"           # fond de la page
+secondaryBackgroundColor = "#FFFFFF"  # barre latérale, cartes, champs de saisie
+textColor = "#334155"                 # couleur du texte
+font = "sans serif"

@@ -1,0 +1,11 @@
+# Dépendances de l'application de diagnostic financier
+# Installation :  python -m pip install -r requirements.txt
+
+streamlit>=1.32
+pandas>=1.5
+openpyxl>=3.1          # lecture/écriture des fichiers Excel (.xlsx)
+altair>=5.0            # graphiques
+numpy>=1.23
+
+# Facultatif : uniquement pour lancer la suite de tests
+# pytest>=7.0

@@ -1,0 +1,23 @@
+﻿Axe,Ratio,Valeur,Statut,Score /100,Formule,Exercice N-1,Évolution
+💧 Liquidité,⚖️ Liquidité générale,"1,27",🟠 Acceptable,65.0,Actif circulant / Passif circulant,"1,33","-0,05 pt"
+💧 Liquidité,🧮 Liquidité réduite (quick ratio),"0,77",🔴 À surveiller,52.0,(Créances + Trésorerie) / Passif circulant,"0,82","-0,05 pt"
+💧 Liquidité,💵 Liquidité immédiate,"0,04",🔴 À surveiller,23.0,Trésorerie (actif) / Passif circulant,"0,08","-0,03 pt"
+💧 Liquidité,💰 Trésorerie nette en % du CA,"-5,8 %",🔴 À surveiller,0.0,(Fonds de roulement − BFR) / CA,"-3,5 %","-2,3 pt"
+💧 Liquidité,🏗️ Fonds de roulement net global,282 000 €,⚪ Non calculable,,Capitaux permanents − Actif immobilisé,304 000 €,-22000 j
+💧 Liquidité,🧱 Besoin en fonds de roulement (BFR),465 000 €,⚪ Non calculable,,(Stocks + Créances) − Dettes à court terme hors trésorerie,420 000 €,+45000 j
+🏦 Solvabilité,🛡️ Autonomie financière,"20,9 %",🟠 Acceptable,57.0,Capitaux propres / Total du passif,"22,0 %","-1,1 pt"
+🏦 Solvabilité,🏛️ Solvabilité générale,"0,26",🔴 À surveiller,29.0,Capitaux propres / Total des dettes,"0,28","-0,02 pt"
+🏦 Solvabilité,🏋️ Levier d'endettement financier,"1,45",🔴 À surveiller,30.0,Dettes financières / Capitaux propres,"1,53","-0,08 pt"
+🏦 Solvabilité,⏳ Capacité de remboursement,"4,1 an(s)",🟠 Acceptable,63.0,Dettes financières / Capacité d'autofinancement (CAF),"3,5 an(s)","+0,6 an(s)"
+📈 Rentabilité,💹 Marge nette,"2,0 %",🔴 À surveiller,54.0,Résultat net / CA,"3,5 %","-1,5 pt"
+📈 Rentabilité,⚙️ Marge d'exploitation,"3,5 %",🟠 Acceptable,59.0,Résultat d'exploitation / CA,"5,5 %","-2,0 pt"
+📈 Rentabilité,🏆 Rentabilité des capitaux propres (ROE),"13,7 %",🟢 Bon,100.0,Résultat net / Capitaux propres,"25,0 %","-11,3 pt"
+📈 Rentabilité,🏭 Rentabilité des actifs (ROA),"5,2 %",🟠 Acceptable,71.0,Résultat d'exploitation / Total de l'actif,"8,6 %","-3,4 pt"
+📈 Rentabilité,🎯 Rentabilité économique,"8,7 %",🟠 Acceptable,77.0,Résultat d'exploitation / (Immobilisations nettes + BFR),"14,1 %","-5,4 pt"
+📈 Rentabilité,🧩 Taux de valeur ajoutée,"24,4 %",🟠 Acceptable,83.0,(CA + autres produits − achats − autres charges externes) / CA,"25,6 %","-1,2 pt"
+🔄 Rotation,📦 Durée moyenne de stockage,90 jours,🟠 Acceptable,62.0,360 × Stock moyen / Achats consommés,83 jours,+7 j
+🔄 Rotation,🧾 Délai de règlement clients,76 jours,🔴 À surveiller,50.0,360 × Créances clients TTC / CA TTC,70 jours,+6 j
+🔄 Rotation,🚚 Délai de règlement fournisseurs,78 jours,🟢 Bon,100.0,360 × Dettes fournisseurs TTC / (Achats + charges externes) TTC,73 jours,+5 j
+🔄 Rotation,⏱️ Poids du BFR (jours de CA),53 jours,🟢 Bon,100.0,360 × BFR / CA,46 jours,+7 j
+🔄 Rotation,🔁 Rotation de l'actif,"1,49",🟢 Bon,100.0,CA / Total de l'actif,"1,57","-0,07 pt"
+🔄 Rotation,🛠️ Rotation des immobilisations,"3,94",🟢 Bon,100.0,CA / Immobilisations nettes,"3,79","+0,14 pt"

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Outils de développement
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Fichiers de contrôle générés localement
+rendu.txt
