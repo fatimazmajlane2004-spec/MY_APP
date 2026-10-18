@@ -150,7 +150,7 @@ python -m pip install pytest
 python -m pytest -q
 ```
 
-29 tests couvrent les agrégats comptables, chaque famille de ratios, les cas limites
+30 tests couvrent les agrégats comptables, chaque famille de ratios, les cas limites
 (divisions par zéro, CAF négative, bilan déséquilibré), la cohérence des notes et des seuils,
 l'import/export de fichiers, la génération des rapports et le fonctionnement réel de
 l'interface Streamlit (via `streamlit.testing`, le framework officiel de test).
@@ -166,6 +166,34 @@ la version de Streamlit installée (`width="stretch"` sur les versions récentes
 Tout se passe dans `finance/referentiel.py` : ajoutez une entrée à la liste `RATIOS`
 (libellé, formule, unité, sens, seuils, phrases d'explication), puis calculez sa valeur dans
 `finance/ratios.py`. L'interface, le diagnostic et les rapports le prennent en compte automatiquement.
+
+---
+
+## 9. Déploiement sur Streamlit Community Cloud
+
+L'application est prête pour un hébergement gratuit (aucune donnée secrète n'est nécessaire) :
+
+1. Poussez le projet sur GitHub (dépôt `MY_APP`, branche `main`).
+2. Ouvrez <https://share.streamlit.io> → **Create app** → **Deploy a public app from GitHub**.
+3. Renseignez :
+
+   | Champ | Valeur |
+   |---|---|
+   | Repository | `votre-compte/MY_APP` |
+   | Branch | `main` |
+   | Main file path | `app.py` |
+   | App URL | au choix, par exemple `diagnostic-financier` |
+
+4. Cliquez sur **Deploy!**. Le premier démarrage prend 2 à 3 minutes : Streamlit installe
+   `requirements.txt` (Streamlit, pandas, openpyxl, altair, numpy).
+
+Bon à savoir :
+
+- Le thème (`.streamlit/config.toml`) est repris automatiquement au déploiement.
+- L'application ne conserve aucune donnée : chaque visiteur repart d'une page vide, ses chiffres
+  restent dans sa session. Elle peut donc être partagée librement.
+- Le dossier `data/` n'est pas utile au fonctionnement : il ne contient que des exemples.
+- Après un `git push` sur la branche `main`, Streamlit redéploie automatiquement la nouvelle version.
 
 ---
 
